@@ -1,12 +1,11 @@
 # DSP
-Data Science Project - CNN Classification project for real waste
-Image Source: 
+Data Science Project - Waste Classification using Convolution Neural Networks
+Image Source: The original image dataset was from UC Irvine machine learning repository.
 
-The original image dataset was from UC Irvine machine learning repository.
+In the real waste classification project, 3 CNN custom classification models and 2 pre-trained, state-of-art models were evaluated
+There were 4 class labels - Glass, Metal, Paper and Textile in experiment 1 to 6.2
 
-In the real waste classification project, 3 CNN custom classification models and 2 pre-trained CNN state-of-art models were tested.
 Hyperparameters were added to the custom CNN models to improve the validation and test accuracy in the following oreder:
-There are 4 class labels - Glass, Metal, Paper and Textile
 1) Experiment 1 - Batach Size and Image Size selection
 2) Experiment 2 - Learning rate optimization
 3) Experiment 3 - Batch Normalization
@@ -21,8 +20,8 @@ Finally all the models were tested with 6 classes - Glass, Metal, Organics, Pape
 
 Dateset used in this project
 Dataset 1: 270 images for training and 50 images for testing for each class. (4 classes).
-Dataset 1: 450 images for training and 50 images for testing for each class (4 classes, with data augmentation).
-Dataset 1: 450 images for training and 50 images for testing for each class. (6 classes, with data augmentation). 
+Dataset 2: 450 images for training and 50 images for testing for each class (4 classes, with data augmentation).
+Dataset 3: 450 images for training and 50 images for testing for each class. (6 classes, with data augmentation). 
 
 You need to defines the path in the function load-data to load any of the dataset mention above. 
 All the 3 dataset are provided in the github directory
