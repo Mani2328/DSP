@@ -18,10 +18,16 @@ The following pre-trained models were also trained on the real waste classificat
 
 Finally all the models were tested with 6 classes - Glass, Metal, Organics, Paper, Plastic, Textile.
 
-Dateset used in this project
+Dateset used in this project are as follow:
+
 Dataset 1: 270 images for training and 50 images for testing for each class. (4 classes).
 Dataset 2: 450 images for training and 50 images for testing for each class (4 classes, with data augmentation).
 Dataset 3: 450 images for training and 50 images for testing for each class. (6 classes, with data augmentation). 
+
+Due to file size constraint, the images dataset were split into multiple zipped folder and assemble as indicated below
+For Dataset 1: Only use images without Class_Aug pre-fix on the images name from Glass, Metal, Paper and Textile
+For Dataset 2: Use all the images from Glass, Metal, Paper and Textile
+For Dataset 3: Use all the images from all the 6 classes
 
 You need to defines the path in the function load-data to load any of the dataset mention above. 
 All the 3 dataset are provided in the github directory
